@@ -1,0 +1,31 @@
+body {
+  background-image: url(https://cdn2.vectorstock.com/i/1000x1000/28/91/merry-christmas-seamless-pattern-with-santa-claus-vector-20972891.jpg);
+}
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  background-color: red;
+  font-size: 60px;
+  font-family: sans-serif;
+  letter-spacing: 7px;
+  padding: 20px;
+  border-radius: 10px;
+}
+#merryText {
+  visibility: visible;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: sans-serif;
+  letter-spacing: 4px;
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+}
